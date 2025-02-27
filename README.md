@@ -29,30 +29,6 @@ Modern recommendation systems are essential for reducing **information overload*
 
 ---
 
-## **📂 Folder Structure**
-```
-📦 Movie-Recommendation-System
-│── 📜 .gitignore         # Ignore unnecessary files
-│── 📜 README.md          # Project documentation (this file)
-│── 📜 requirements.txt   # Dependencies for the project
-│── 📂 data               # Dataset (MovieLens)
-│   ├── movies.csv        # Movie metadata
-│   ├── ratings.csv       # User ratings
-│── 📂 models
-│   ├── content_based.py  # Content-based filtering implementation
-│   ├── collaborative.py  # Collaborative filtering (KNN, SVD, SVD++)
-│   ├── hybrid.py         # Hybrid recommendation system
-│── 📂 notebooks
-│   ├── EDA.ipynb         # Exploratory Data Analysis
-│   ├── Model_Training.ipynb  # Training & evaluation notebook
-│── 📂 utils
-│   ├── data_loader.py    # Functions for loading datasets
-│   ├── metrics.py        # RMSE, MAE, Precision-Recall functions
-│── 📜 main.py            # Script to run recommendations
-```
-
----
-
 ## **📊 Dataset**
 I used the **MovieLens 100K Dataset**, containing:  
 📌 **100,836 ratings**  
